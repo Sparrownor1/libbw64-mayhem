@@ -1,0 +1,7 @@
+image: $MAYHEM_DOCKER_REGISTRY/forallsecure/libbw64:latest
+duration: 90
+project: libbw64
+target: bw64_read_write
+cmds:
+  - cmd: /libbw64/build/examples/bw64_read_write @@ /dev/null
+    env: {}
