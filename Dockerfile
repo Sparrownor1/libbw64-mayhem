@@ -17,4 +17,4 @@ RUN rm -rf build && \
     cd ..
 
 ENTRYPOINT []
-CMD /libbw64/build/examples/bw64_read_write @@
+CMD /libbw64/build/examples/bw64_read_write @@ /dev/null
